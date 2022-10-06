@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include<conio.h>
 using namespace std;
 
@@ -22,27 +22,27 @@ void main()
 #ifdef IF_SHOOTER
         if (key == 'w' || key == 'W' || key == UP_ARROW)
         {
-            cout << "Âïåðåä" << endl;
+            cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
         }
         else if (key == 'a' || key == 'A' || key == LEFT_ARROW)
         {
-            cout << "âëåâî" << endl;
+            cout << "Ð²Ð»ÐµÐ²Ð¾" << endl;
         }
         else if (key == 'd' || key == 'D' || key == RIGHT_ARROW)
         {
-            cout << "âïðàâî" << endl;
+            cout << "Ð²Ð¿Ñ€Ð°Ð²Ð¾" << endl;
         }
         else if (key == 's' || key == 'S' || key == DOWN_ARROW)
         {
-            cout << "Íàçàä" << endl;
+            cout << "ÐÐ°Ð·Ð°Ð´" << endl;
         }
         else if (key == ' ')
         {
-            cout << "ïûæîê" << endl;
+            cout << "Ð¿Ñ‹Ð¶Ð¾Ðº" << endl;
         }
         else if (key == Enter)
         {
-            cout << "Îãîíü" << endl;
+            cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
         }
         else
         {
@@ -53,18 +53,18 @@ void main()
         {
         case'w':    
         case UP_ARROW :
-        case'W':cout     << "Âïåðåä" << endl; break;
+        case'W':cout     << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
         case's':    
         case DOWN_ARROW :
-        case'S':cout     << "Íàçàä" << endl;  break;
+        case'S':cout     << "ÐÐ°Ð·Ð°Ð´" << endl;  break;
         case'a':     
         case LEFT_ARROW :
-        case'A':    cout << "Âëåâî" << endl;  break;
+        case'A':    cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;  break;
         case'D':    
         case RIGHT_ARROW :
-        case'd':     cout << "Âïðàâî" << endl;  break;
-        case' ':cout     << "Ïðûæîê"    << endl; break;
-        case Enter: cout << "Îãîíü"     << endl; break;
+        case'd':     cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;  break;
+        case' ':cout     << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº"    << endl; break;
+        case Enter: cout << "ÐžÐ³Ð¾Ð½ÑŒ"     << endl; break;
         case  -32:break;
         case Escape:break; cout << "Exit";
         default: cout    << "Error"     << endl;
