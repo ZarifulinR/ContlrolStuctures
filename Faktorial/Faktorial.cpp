@@ -4,14 +4,14 @@ using std::cin;
 using std::cout;
 using std::endl;
 //#define STEPEN
-#define FAKTORIAL
+#define FACTORIAL
 //#define ASCII
 //#define FIBONACH
 //#define FIBONACH_1
 //#define PROS
 void main()
 {
-#ifdef FAKTORIAL
+#ifdef FACTORIAL
 	setlocale(LC_ALL, "rus");
 	int n;
 	double f = 1; //faktorial
