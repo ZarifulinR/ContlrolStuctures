@@ -1,10 +1,10 @@
-#include<iostream>
+Ôªø#include<iostream>
 using namespace std;
 using std::cin;
 using std::cout;
 using std::endl;
 //#define STEPEN
-//#define FAKTORIAL
+#define FAKTORIAL
 //#define ASCII
 //#define FIBONACH
 //#define FIBONACH_1
@@ -15,7 +15,7 @@ void main()
 	setlocale(LC_ALL, "rus");
 	int n;
 	double f = 1; //faktorial
-	cout << "¬‚Â‰ËÚÂ ˜ËÒÎÓ"; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ —á–∏—Å–ª–æ"; cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
 		cout << i << "!=";
@@ -26,11 +26,11 @@ void main()
 #endif 
 	setlocale(LC_ALL, "Rus");
 #ifdef STEPEN
-	double a;// ÓÒÌÓ‚‡ÌËÂ ÒÚÂÔÂÌË ÍÓÚÓÓÂ ÛÏÌÓÊ‡ÂÚÒˇ Ò‡ÏÓ Ì‡ ÒÂ·ˇ
-	int n; //ÔÓÍ‡Á‡ÚÂÎ¸ ÒÚÂÔÂÌË
-	double N = 1;// —ÚÂÔÂÌ¸
-	cout << "‚Â‰ËÚÂ ˜ËÒÎÓ"; cin >> a;
-	cout << "¬‚Â‰ËÚÓÂ ÔÓÍ‡Á‡ÚÂÎ¸ ÒÚÂÔÂÌË"; cin >> n;
+	double a;// –æ—Å–Ω–æ–≤–∞–Ω–∏–µ —Å—Ç–µ–ø–µ–Ω–∏ –∫–æ—Ç–æ—Ä–æ–µ —É–º–Ω–æ–∂–∞–µ—Ç—Å—è —Å–∞–º–æ –Ω–∞ —Å–µ–±—è
+	int n; //–ø–æ–∫–∞–∑–∞—Ç–µ–ª—å —Å—Ç–µ–ø–µ–Ω–∏
+	double N = 1;// –°—Ç–µ–ø–µ–Ω—å
+	cout << "–≤–µ–¥–∏—Ç–µ —á–∏—Å–ª–æ"; cin >> a;
+	cout << "–í–≤–µ–¥–∏—Ç–æ–µ –ø–æ–∫–∞–∑–∞—Ç–µ–ª—å —Å—Ç–µ–ø–µ–Ω–∏"; cin >> n;
 	if (n < 0)
 	{
 		a = 1 / a;
@@ -43,8 +43,8 @@ void main()
 	cout << N << endl;
 #endif 
 #ifdef ASCII
-	cout << "“‡·ÎËˆ‡ ASCII ÒËÏ‚ÓÎÓ‚:\n";
-	setlocale(LC_ALL, "c");//‚ÍÎ˛˜‡ÂÚ ÍÓ‰ËÓ‚ÍÛ ÔÓ ÛÏÓÎ˜‡ÌË˛.
+	cout << "–¢–∞–±–ª–∏—Ü–∞ ASCII —Å–∏–º–≤–æ–ª–æ–≤:\n";
+	setlocale(LC_ALL, "c");//–≤–∫–ª—é—á–∞–µ—Ç –∫–æ–¥–∏—Ä–æ–≤–∫—É –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é.
 	for (int i = 0; i < 256; i++)
 	{
 		if (i % 16 == 0)cout << endl;
@@ -54,7 +54,7 @@ void main()
 #endif 
 #ifdef FIBONACH
 	int n;
-	cout << "¬‚Â‰ËÚÂ ÔÂ‰ÂÎ¸ÌÓÂ ˜ËÒÎÓ"; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –ø—Ä–µ–¥–µ–ª—å–Ω–æ–µ —á–∏—Å–ª–æ"; cin >> n;
 	for (int a = 0, b = 1, c = a = b; a < n; a = b, b = c, c = a + b)
 	{
 		cout << a << "\t";
@@ -64,7 +64,7 @@ void main()
 #ifdef FIBONACH_1
 	int n;
 	int a = 0, b = 1, i;
-	cout << "¬‚Â‰ËÚÂ ÍÓÎÎË˜ÂÒÚ‚Ó ˜ËÒÂÎ ËÁ ˇ‰‡ ÙË·ÓÌ‡˜Ë: "; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –∫–æ–ª–ª–∏—á–µ—Å—Ç–≤–æ —á–∏—Å–µ–ª –∏–∑ —Ä—è–¥–∞ —Ñ–∏–±–æ–Ω–∞—á–∏: "; cin >> n;
 	for (i = 0; i < n; i++)
 	{
 		a = a + b;
@@ -76,11 +76,11 @@ void main()
 #endif // FIBONACH_1
 #ifdef PROS
 	int n;
-	cout << "¬‚Â‰ËÚÂ ÔÂ‰ÂÎ¸ÌÓÂ  ˜ËÒÎÓ: "; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –ø—Ä–µ–¥–µ–ª—å–Ω–æ–µ  —á–∏—Å–ª–æ: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
-		bool simple = true;//ÔÂ‰ÔÓÎÓ„‡ÂÏ ˜ÚÓ ˜ËÒÎÓ ÔÓÒÚÓÂ 
-		//ÌÓ ˝ÚÓ ÌÛÊÌÓ ÔÓ‚ÂËÚ¸
+		bool simple = true;//–ø—Ä–µ–¥–ø–æ–ª–æ–≥–∞–µ–º —á—Ç–æ —á–∏—Å–ª–æ –ø—Ä–æ—Å—Ç–æ–µ 
+		//–Ω–æ —ç—Ç–æ –Ω—É–∂–Ω–æ –ø—Ä–æ–≤–µ—Ä–∏—Ç—å
 		for (int j = 2; j < i; j++)
 		{
 			if (i % j == 0)
