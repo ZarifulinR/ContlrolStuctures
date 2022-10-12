@@ -4,7 +4,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 //#define STEPEN
-#define FACTORIAL
+//#define FACTORIAL
 //#define ASCII
 //#define FIBONACH
 //#define FIBONACH_1
